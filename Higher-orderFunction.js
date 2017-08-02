@@ -28,7 +28,7 @@ for(var i = 0; i < animals.length; i++){
 
 // Second Solution
 // filter function and filter function are composable
-// function that you send it into another function called callback function
+// function that it is executed after the current effect is finished
 // function return true or false to the filter function
 var dogs = animals.filter((animal) => {return animal.species === 'dog'});
 
